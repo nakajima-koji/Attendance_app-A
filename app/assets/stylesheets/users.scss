@@ -1,9 +1,21 @@
 // ユーザー情報テーブル
 
 .user-table {
-  vertical-align: middle;
+  vertical-align: text-bottom;
   text-align: center;
 }
+
+#table-attendances {
+  th {
+    vertical-align: middle;
+    text-align: center;
+  }
+  td {
+    vertical-align: middle;
+    text-align: center;
+  }
+}
+
 
 .label-signup {
   margin-top: 5px;
@@ -24,5 +36,7 @@
 .table-user {
   td {
     vertical-align: middle;
+    text-align: center;
   }
 }
+
