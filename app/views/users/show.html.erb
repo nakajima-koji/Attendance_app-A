@@ -25,6 +25,14 @@
   </table>
 </div>
 
+<div class="btn-users-show">
+  <%= link_to "勤怠を編集", attendances_edit_one_month_user_path(@user), class: "btn btn-primary btn-default" %>
+  <%= link_to "CSV出力", "#", class: "btn btn-primary btn-default" %>
+</div>
+<div>
+  <%= link_to "勤怠修正ログ（承認済）", "#", class: "btn btn-primary btn-default" %>
+</div>
+
 <div>
   <table class="table table-bordered table-condensed table-hover" id="table-attendances">
     <thead>
